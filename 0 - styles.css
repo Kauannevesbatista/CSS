@@ -1,0 +1,20 @@
+
+
+/*   Testando a Outra forma de ligar o css no html  
+    <link herf= "./ (aqui vc informa para o html que vc 
+    quer inportar um arquivo de css  com a tag = stylesheet)"
+     rel="(aqui vc informa para o html aonde que esta o arquivo 
+     que vc quer adicionar para que ele puxe as informações)"-->*/
+
+h1 { 
+    color: blue;
+    background-color: black;
+}
+
+p {color: blue; 
+font-size: 20px;}
+
+button{
+    background: blue;
+    border-color: black;
+}

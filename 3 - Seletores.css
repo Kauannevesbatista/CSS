@@ -1,0 +1,19 @@
+
+
+/* tipos de seletores */
+ 
+/* tag */
+
+/* (*)  Esse seletor altera tudo */
+* {
+    background-color: burlywood;
+
+} 
+
+/* id  esse seletor e unico, so pode alterar uma coisa  Para customizar no css e so usar a tag # */ 
+#Titulo{color: antiquewhite; background: black;}
+#Paragrafo{color: aliceblue;}
+#botão { color: chartreuse;}
+
+/* Class e basicamente um grupo, para utilizar e so usar a taga .  */
+.tudo {background: blueviolet;}

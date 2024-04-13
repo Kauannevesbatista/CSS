@@ -1,0 +1,82 @@
+
+.box{
+    width:50px;
+    height:50px;
+    background:#ff1493;
+    padding:px;
+    margin:20px;
+}
+
+
+.box-2{
+    width:50px;
+    height:50px;
+    background:#ff1413;
+
+    /*Vale tanto para o margin tanto para o padding  */
+
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+    /*margin sentido ante horario */
+
+
+    padding: 10px  10px  10px   10px;
+
+    /*padiding sentido ante horario */
+
+}
+
+
+/*BOX sizing */
+
+*{
+    box-sizing: border-box; 
+}
+.box-3{
+        width: 100px;
+        height: 100px;
+        background: chartreuse;
+        padding: 20px;
+        border: 10px solid #ff9840;
+}
+
+
+.caixa{
+
+        background: #ff9840;
+        height: 50px;
+        width: 50px;
+ }
+
+ .caixa-2{background: cyan;}
+
+
+
+ .caixa-3{background: darkgreen;}
+
+ /*
+  BLOCK
+ Vem como padrão: div, section, p, h1, h2, ul, li, article...
+
+ Ocupa 100% da largura do elemento pai
+ Sempre ocupa toda a sua linha
+ Altura definida de acordo com o conteúdo
+ Podemos definir height e width
+ Podemos definir valores de margin
+
+ INLINE
+ Vem como ao a, span, b, i
+ 
+ Elementos-em-Linha
+ Não permite alterar height e width
+ Não podemos definir valores de margin top e bottom
+ Ganha comportamento de uma palavra
+
+ INLINE-BLOCK
+
+ Elementos em linha, porém com característ
+ Altura e largura podem ser alteradas.
+*/
